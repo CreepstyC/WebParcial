@@ -1,0 +1,114 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #B2BEBF;
+    color: #3B3936;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    background-color: #889C9B;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border: 1px solid #3B3936;
+    border-radius: 5px;
+    padding: 10px 10px;
+    width: 400px;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+}
+
+span .flag {
+    border: 1px solid #3B3936;
+    background-color: #B2BEBF;
+    border-radius: 5px;
+    width: 80px;
+    height: 100%;
+    padding: 10px;
+}
+
+img .flag {
+    width: 30px;
+    height: 30px;
+}
+
+.labelgusto {
+    color: #3B3936;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 0 20px 30px 20px;
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    border: 0;
+    background-color: #486966;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border-radius: 100px;
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #5b8a86;
+}
+
+.danger {
+    margin: 0 20px 30px 20px;
+    width: 120px;
+    height: 40px;
+    display: inline-block;
+    border: 0;
+    background-color: #BD2A2E;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    border-radius: 100px;
+    transition: color 0.3s ease;
+}
+
+.danger:hover {
+    cursor: pointer;
+    background-color: #e03f44;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+
+}
+
+.total {
+    width: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}

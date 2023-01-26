@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDeveloper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>
+        WebDeveloper
+    </h1>
+    <article>
+        <h3>
+            Formulario de afiliación
+        </h3>
+        <form action="mostrar.html" name="name" name="email" name="phone">
+            <div>
+                <input id="name" name="name" type="text" placeholder="Nombre Completo">
+                <span><img class="icon" src="icons/UserIcon.png"></span>
+            </div>
+            <br>
+            <div>
+                <input id="email" name="email" type="email" placeholder="email">
+                <span><img class="icon" src="icons/free-mail-icon-142-thumb.png"></span>
+            </div>
+            <br>
+            <div>
+                <input id="phone" name="phone" type="number" placeholder="phone">
+                <span><img class="icon" src="icons/phoneIcon.png    "></span>
+            </div>
+
+            <br>
+            <div>
+                <!-- <span class="flag"><img class="flag" src="icons/flag.png"></span> -->
+                <span>
+                    <table id="tabla-gustos">
+                        <thead>
+                            <tr>
+                                <th>Gusto</th>
+                                <th>Editar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                    <div class="container" style="display:none" id="menu-cambios">
+                        <label>Pulse Aceptar para guardar los cambios o cancelar para anularlos</label>
+                        <div class="">
+                            <div id="botones-accion">
+                                <button type="submit">Aceptar</button>
+                                <button type="button" class="danger">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+            </div>
+        </form><br>
+        <div>
+            <label class="labelgusto" for="gusto-input"><b>Presione enter al escribir el gusto</b></label>
+            <br>
+            <input id="gusto-input" type="text" placeholder="Ingresa un gusto">
+        </div>
+    </article>
+    <script src="app.js"></script>
+</body>
+
+</html>
